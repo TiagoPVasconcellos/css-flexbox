@@ -1,0 +1,23 @@
+.row-5-0 {
+  border: 0.1vh solid black;
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens ao inicio do container */
+}
+.row-5-1 {
+  border: 0.1vh solid black;
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens ao final do container */
+}
+.row-5-2 {
+  display: flex;
+  justify-content: center; /* Alinha os itens ao centro do container*/
+}
+.row-5-3 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Cria um espaçamento igual entre os elementos, mantendo o primeiro grudado no início e o último no final */
+}
+.row-5-4 {
+    display: flex;
+    justify-content: space-around;
+}

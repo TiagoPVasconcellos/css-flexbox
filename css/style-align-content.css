@@ -1,0 +1,38 @@
+.row-7-0 {
+  border: 0.1vh solid black;
+  display: flex;
+  align-items: stretch; /* Padrão. Ele faz com que os flex itens cresçam igualmente*/
+}
+.row-7-1 {
+  border: 0.1vh solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start; /* Alinha todas as linhas de itens ao início */
+}
+.row-7-2 {
+  border: 0.1vh solid black;
+  display: flex;
+  align-content: flex-end; /* Alinha todas as linhas de itens ao final*/
+  flex-wrap: wrap;
+}
+.row-7-3 {
+  text-align: center;
+  display: flex;
+  align-content: center; /* Alinha todas as linhas de itens ao centro */
+}
+.row-7-4 {
+  display: flex;
+  align-content: space-between;  /* Cria um espaçamento igual entre as linhas, primeira grudado no topo e a última no bottom */
+}
+.item-7-4:first-child {
+  padding-top: 20px;
+}
+.row-7-5 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around; /* Cria um espaçamento entre as linhas. Os espaçamentos do meio são duas vezes maiores que o do top e bottom */
+}
+
+
+
+

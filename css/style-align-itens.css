@@ -1,0 +1,31 @@
+.row-6-0 {
+  border: 0.1vh solid black;
+  display: flex;
+  align-items: stretch; /* Padrão. Ele faz com que os flex itens cresçam igualmente*/
+}
+.row-6-1 {
+  border: 0.1vh solid black;
+  display: flex;
+  align-items: flex-start; /* Alinha os itens ao inícios */
+}
+.row-6-2 {
+  display: flex;
+  justify-content: center; /* Alinha os itens ao centro do container*/
+}
+.row-6-2 {
+  border: 0.1vh solid black;
+  display: flex;
+  align-items: flex-end; /* Alinha os itens ao fim */
+}
+.row-6-3 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.item-6-4:first-child {
+    padding-top: 20px;
+}
+.row-6-4 {
+  display: flex;
+  align-items: baseline; /* Alinha os itens de acordo com a linha base da tipografia */
+}

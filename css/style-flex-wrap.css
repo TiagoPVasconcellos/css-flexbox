@@ -1,0 +1,12 @@
+.row-3 {
+  border: 0.1vh solid black;
+  display: flex;
+  flex-wrap: wrap; 
+}
+.segundo-3 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap-reverse; /* Quebra a linha quando não couber mais. A quebra é para a linha acima. */
+}
+
+

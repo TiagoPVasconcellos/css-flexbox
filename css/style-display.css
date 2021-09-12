@@ -1,0 +1,119 @@
+body {
+  margin: auto;
+  padding: 0;
+  display: flex; /* Torna o body um flex container, e todos seus filhos são flex itens */
+}
+
+/* Dividindo a página em 2 */
+.flex {
+  border: 1vh solid black;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgb(235, 147, 235),
+    rgb(143, 45, 86)
+  );
+}
+
+/* Dois títulos da página */
+.principal {
+  margin: 0 auto;
+  background: linear-gradient(to right, rgb(58, 58, 243), rgb(116, 140, 171));
+  width: 45%;
+  text-align: center;
+  border-radius: 5% 5% 5% 5%;
+}
+
+/* Containers lado esquerdo */
+.conteudo-esquerda, .conteudo-direita{
+  border: 0.1vh solid black;
+  margin: 5vh;
+  border-radius: 5vh 5vh;
+  box-shadow: 0.5vh 0.5vh 0.8vh black;
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 209, 110),
+    rgb(207, 155, 41)
+  );
+}
+/* Centralização dos títulos dos containers*/
+.conteudo-esquerda h2, .conteudo-direita h2 {
+  text-align: center;
+}
+/* Borda e estilização dos blocos de exemplos */
+.conteudo-esquerda-1, .conteudo-direita-1 {
+  max-width: 40vw;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 3vh;
+}
+/* Estilização dos títulos dos exemplos */
+.conteudo-esquerda-1 h3, .conteudo-direita-1 h3{
+  text-align: center;
+  margin: 0.5vw;
+  background-color: rgb(220, 255, 253);
+}
+/* Responsável por colocar borda em alguns exemplos */
+.block {
+  border: 0.1vh solid black;
+}
+/* itens sem flex = 1*/
+.item,
+.item-1,
+.item-2,
+.item-3,
+.item-2-2,
+.item-3-1,
+.item-5-0,
+.item-5-1, 
+.item-5-2,
+.item-5-3,
+.item-6-0, 
+/*Itens do lado direito*/
+.item-d-0, 
+.item-d-1, 
+.item-d-2,
+.item-d-3,
+.item-d-4,
+.item-d-5,
+.item-d-6 {
+  background-color: orange;
+  text-align: center;
+  margin: 1vh;
+}
+/* itens com flex = 1*/
+.item-4,
+.item-2-0,
+.item-2-1,
+.item-2-3,
+.item-3-0,
+.item-3-2,
+.item-4-0,
+.item-4-2,
+.item-4-1,
+.item-5-4, 
+.item-6-1,
+.item-6-2,
+.item-6-3,
+.item-6-4,
+.item-7-0,
+.item-7-1,
+.item-7-2,
+.item-7-3,
+.item-7-4,
+.item-7-5 {
+  background-color: orange;
+  text-align: center;
+  margin: 1vh;
+  flex: 1; /* Ocupa o tamanho máximo disponível do container*/
+}
+.segundo, .terceiro  {
+  display: flex; /* Se arrumam um do lado do outro, o tamanho do item é do tamanho do conteúdo*/
+}
+.quarto, .quinto {
+  display: flex;
+  flex-wrap: wrap; /*Quebrará a linha caso vá ultrapassar o limite disponível */
+}
+

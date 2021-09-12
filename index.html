@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-display.css">
+    <link rel="stylesheet" href="css/style-flex-direction.css">
+    <link rel="stylesheet" href="css/style-flex-wrap.css">
+    <link rel="stylesheet" href="css/style-flex-flow.css">
+    <link rel="stylesheet" href="css/style-justify-content.css">
+    <link rel="stylesheet" href="css/style-align-itens.css">
+    <link rel="stylesheet" href="css/style-align-content.css">
+
+    <title>CSS - FLEXBOX</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="principal">
+            <h1>Flex Container</h1>
+        </div>
+
+        <!-- Primeiro Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Display</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>Display: Block</h3>
+                <section class="block">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Display: Flex - Padrão Flex</h3>
+                <section class="block segundo">
+                    <div class="item-1">1</div>
+                    <div class="item-1">2</div>
+                    <div class="item-1">3</div>
+                    <div class="item-1">4</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Display: Flex - Padrão Flex</h3>
+                <section class="block terceiro">
+                    <div class="item-2">Teste 1</div>
+                    <div class="item-2">Teste 2</div>
+                    <div class="item-2">Teste 3</div>
+                    <div class="item-2">Teste 4</div>
+                    <div class="item-2">Teste 5</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Display: Flex com Flex Wrap</h3>
+                <section class="block quarto">
+                    <div class="item-3">Feijoada</div>
+                    <div class="item-3">Feijoada</div>
+                    <div class="item-3">Feijoada</div>
+                    <div class="item-3">Feijoada</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Display: Flex com Flex 1</h3>
+                <section class="block quinto">
+                    <div class="item-4">Estrogonofe</div>
+                    <div class="item-4">Estrogonofe</div>
+                    <div class="item-4">Estrogonofe</div>
+                    <div class="item-4">Estrogonofe</div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Segundo Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Flex-Direction</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-direction: row</h3>
+                <section class="row">
+                    <div class="item-2-0">1</div>
+                    <div class="item-2-0">2</div>
+                    <div class="item-2-0">3</div>
+                    <div class="item-2-0">4</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-direction: row-reverse</h3>
+                <section class="row-2">
+                    <div class="item-2-1">1</div>
+                    <div class="item-2-1">2</div>
+                    <div class="item-2-1">3</div>
+                    <div class="item-2-1">4</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-direction: column</h3>
+                <section class="block segundo-2">
+                    <div class="item-2-2">1</div>
+                    <div class="item-2-2">2</div>
+                    <div class="item-2-2">3</div>
+                    <div class="item-2-2">4</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-direction: column-reverse</h3>
+                <section class="block terceiro-2">
+                    <div class="item-2-3">Teste 1</div>
+                    <div class="item-2-3">Teste 2</div>
+                    <div class="item-2-3">Teste 3</div>
+                    <div class="item-2-3">Teste 4</div>
+                    <div class="item-2-3">Teste 5</div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Terceiro Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Flex-Wrap</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-wrap: nowrap</h3>
+                <section class="row">
+                    <div class="item-3-0">1</div>
+                    <div class="item-3-0">2</div>
+                    <div class="item-3-0">3</div>
+                    <div class="item-3-0">4</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-wrap: wrap</h3>
+                <section class="row-3">
+                    <div class="item-3-1">Aracaju</div>
+                    <div class="item-3-1">Sertãozinho</div>
+                    <div class="item-3-1">Florianópolis</div>
+                    <div class="item-3-1">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-wrap: wrap-reverse</h3>
+                <section class="block segundo-3">
+                    <div class="item-3-2">Feijoada</div>
+                    <div class="item-3-2">Guacamole</div>
+                    <div class="item-3-2">Macarrão</div>
+                    <div class="item-3-2">Hamburguer</div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Quarto Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Flex-Flow</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-flow: row nowrap</h3>
+                <section class="row-4-0">
+                    <div class="item-4-0">Abacaxi</div>
+                    <div class="item-4-0">Morango</div>
+                    <div class="item-4-0">Melancia</div>
+                    <div class="item-4-0">Uva</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-flow: row wrap</h3>
+                <section class="row-4-1">
+                    <div class="item-4-1">Aracaju</div>
+                    <div class="item-4-1">Sertãozinho</div>
+                    <div class="item-4-1">Florianópolis</div>
+                    <div class="item-4-1">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Flex-flow: column nowrap</h3>
+                <section class="block segundo-4">
+                    <div class="item-4-2">Feijoada</div>
+                    <div class="item-4-2">Guacamole</div>
+                    <div class="item-4-2">Macarrão</div>
+                    <div class="item-4-2">Hamburguer</div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Quinto Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Justify Content</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>Justify Content: flex-start</h3>
+                <section class="row-5-0">
+                    <div class="item-5-0">Abacaxi</div>
+                    <div class="item-5-0">Morango</div>
+                    <div class="item-5-0">Melancia</div>
+                    <div class="item-5-0">Uva</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Justify Content: flex-end</h3>
+                <section class="row-5-1">
+                    <div class="item-5-1">Aracaju</div>
+                    <div class="item-5-1">Sertãozinho</div>
+                    <div class="item-5-1">Florianópolis</div>
+                    <div class="item-5-1">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Justify Content: center</h3>
+                <section class="block row-5-2">
+                    <div class="item-5-2">Feijoada</div>
+                    <div class="item-5-2">Guacamole</div>
+                    <div class="item-5-2">Macarrão</div>
+                    <div class="item-5-2">Hamburguer</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Justify Content: space-between</h3>
+                <section class="block row-5-3">
+                    <div class="item-5-3">Aracaju</div>
+                    <div class="item-5-3">Sertãozinho</div>
+                    <div class="item-5-3">Florianópolis</div>
+                    <div class="item-5-3">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Justify Content: space-around</h3>
+                <section class="block row-5-4">
+                    <div class="item-5-4">Feijoada</div>
+                    <div class="item-5-4">Guacamole</div>
+                    <div class="item-5-4">Macarrão</div>
+                    <div class="item-5-4">Hamburguer</div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Sexto Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Align Items</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Itens: stretch</h3>
+                <section class="row-6-0">
+                    <div class="item-6-0">Estrogonofe de Filé Mignon</div>
+                    <div class="item-6-0">Morango</div>
+                    <div class="item-6-0">Melancia</div>
+                    <div class="item-6-0">Uva</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Itens: flex-start</h3>
+                <section class="row-6-1">
+                    <div class="item-6-1">Maça</div>
+                    <div class="item-6-1">Estrogonofe de Frango</div>
+                    <div class="item-6-1">Florianópolis</div>
+                    <div class="item-6-1">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Itens: flex-end</h3>
+                <section class="block row-6-2">
+                    <div class="item-6-2">Feijoada</div>
+                    <div class="item-6-2">Guacamole</div>
+                    <div class="item-6-2">Pudim de Leite condensado</div>
+                    <div class="item-6-2">Hamburguer</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Itens: center</h3>
+                <section class="block row-6-3">
+                    <div class="item-6-3">Aracaju</div>
+                    <div class="item-6-3">Sertãozinho</div>
+                    <div class="item-6-3">Rio de Janeiro</div>
+                    <div class="item-6-3">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Itens: baseline</h3>
+                <section class="block row-6-4">
+                    <div class="item-6-4 teste ">1</div>
+                    <div class="item-6-4">Teste 2 usando baseline</div>
+                    <div class="item-6-4">Testando mais uma outra vez o uso de baseline</div>
+                    <div class="item-6-4">Ultima</div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Sétimo Bloco  -->
+        <div class="conteudo-esquerda">
+            <h2>Align Content</h2>
+            <div class="conteudo-esquerda-1">
+                <h3>align Content: stretch</h3>
+                <section class="row-7-0">
+                    <div class="item-7-0">Estrogonofe de Filé Mignon</div>
+                    <div class="item-7-0">Morango</div>
+                    <div class="item-7-0">Melancia</div>
+                    <div class="item-7-0">Uva</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Content: flex-start</h3>
+                <section class="row-7-1">
+                    <div class="item-7-1">Maça</div>
+                    <div class="item-7-1">Estrogonofe de Frango</div>
+                    <div class="item-7-1">Florianópolis</div>
+                    <div class="item-7-1">Pindamonhangaba</div>
+                    <div class="item-7-1">Estrogonofe de Frango</div>
+                    <div class="item-7-1">Florianópolis</div>
+                    <div class="item-7-1">Pindamonhangaba</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align-Content: flex-end</h3>
+                <section class="block row-7-2">
+                    <div class="item-7-2">Feijoada</div>
+                    <div class="item-7-2">Guacamole</div>
+                    <div class="item-7-2">Pudim de Leite condensado</div>
+                    <div class="item-7-2">Hamburguer</div>
+                    <div class="item-7-2">Guacamole</div>
+                    <div class="item-7-2">Pudim de Leite condensado</div>
+                    <div class="item-7-2">Hamburguer</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Content: center</h3>
+                <section class="block row-7-3">
+                    <div class="item-7-3">Aracaju</div>
+                    <div class="item-7-3">Sertãozinho</div>
+                    <div class="item-7-3">Rio de Janeiro</div>
+                    <div class="item-7-3">Pindamonhangaba</div>
+                    <div class="item-7-3">Sertãozinho</div>
+
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Content: space-between</h3>
+                <section class="block row-7-4">
+                    <div class="item-7-4">1</div>
+                    <div class="item-7-4">Teste 2 usando baseline</div>
+                    <div class="item-7-4">Testando </div>
+                    <div class="item-7-4">Ultima</div>
+                </section>
+            </div>
+            <div class="conteudo-esquerda-1">
+                <h3>Align Content: space-around</h3>
+                <section class="block row-7-5">
+                    <div class="item-7-5">Testando</div>
+                    <div class="item-7-5">1</div>
+                    <div class="item-7-5">2</div>
+                    <div class="item-7-5">3</div>
+                    <div class="item-7-5">Testando item 34</div>
+                    <div class="item-7-5">Testando mais uma outra vez o uso de baseline</div>
+                    <div class="item-7-5">Ultima</div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    
+
+        </div>
+    </div>
+
+</body>
+
+</html>

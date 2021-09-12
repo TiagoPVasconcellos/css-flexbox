@@ -1,0 +1,20 @@
+.row {
+  border: 0.1vh solid black;
+  display: flex;
+  flex-direction: row; 
+}
+.row-2 {
+  border: 0.1vh solid black;
+  display: flex;
+  flex-direction: row-reverse; /* Inverte a ordem*/
+}
+.segundo-2 {
+  flex-direction: column; /* Ficam em colunas*/
+  text-align: center;
+}
+.terceiro-2 {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
